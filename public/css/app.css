@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #2935b5; /* Fondo azul */
+    border-bottom: 2px solid #fff; /* Borde inferior blanco */
+  }
+
+  .navbar-light .navbar-brand {
+    color: #fff; /* Color de letra blanco */
+  }
+
+  .navbar-light .navbar-brand:hover {
+    color: #e3e3e3; /* Color de letra blanco al pasar el mouse por encima */
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff; /* Color de letra blanco */
+    transition: color 0.3s; /* Transición suave */
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #e3e3e3; /* Color de letra blanco al pasar el mouse por encima */
+  }
+
+
+
+  #sidebar-wrapper {
+    background-color: #e8f2ff; /* Color celeste */
+    border-right: 4px solid #c0c0c0; /* Borde derecho de color gris más notorio */
+    width: 210px; /* Ancho del sidebar */
+    height: 100vh; /* Establece la altura del sidebar al 100% de la altura de la ventana */
+    overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido excede la altura del sidebar */
+  }
+
+  .sidebar-heading {
+    color: #ffffff; /* Color blanco para las letras */
+    font-size: 18px; /* Tamaño de letra más grande */
+    font-weight: bold; /* Fuente en negrita */
+    padding-left: 20px; /* Espaciado izquierdo */
+    margin-top: 0; /* Elimina el margen superior */
+    background-color: #3802fdf1; /* Fondo gris elegante */
+  }
+
+  .list-group-item {
+    color: #000000; /* Color de letra negro */
+    font-size: 16px; /* Tamaño de letra más grande */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin bordes */
+    transition: background-color 0.3s; /* Transición suave del fondo al pasar el mouse por encima */
+  }
+
+  .list-group-item:hover {
+    background-color: #2935b5; /* Fondo azul al pasar el mouse por encima */
+    color: #ffffff; /* Letras blancas al pasar el mouse por encima */
+  }

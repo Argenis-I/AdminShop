@@ -1,0 +1,25 @@
+.card-container {
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    background-color: #2935b5;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2935b5;
+}
+
+.card-body img {
+    width: 170px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    margin-top: 0;
+    color: #fff !important;
+}
+

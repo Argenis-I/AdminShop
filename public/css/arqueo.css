@@ -1,0 +1,14 @@
+.arqueo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.arqueo-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.arqueo-item span:first-child {
+    margin-right: 10px;
+}
